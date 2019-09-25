@@ -1,0 +1,11 @@
+<library path="lib/libdepth_image_proc2">
+
+  <class name="depth_image_proc2/point_cloud_xyzrgb"
+	       type="depth_image_proc2::PointCloudXyzrgbNodelet"
+	       base_class_type="nodelet::Nodelet">
+    <description>
+      Nodelet to combine registered depth image and RGB image into XYZRGB point cloud.
+    </description>
+  </class>
+
+</library>
