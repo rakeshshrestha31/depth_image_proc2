@@ -123,7 +123,7 @@ find_package(OpenCV REQUIRED)
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES ${PROJECT_NAME}
-  CATKIN_DEPENDS boost cmake_modules cv_bridge depth_image_proc eigen_conversions image_geometry image_transport message_filters nodelet sensor_msgs stereo_msgs tf2 tf2_ros
+  CATKIN_DEPENDS cmake_modules cv_bridge depth_image_proc eigen_conversions image_geometry image_transport message_filters nodelet sensor_msgs stereo_msgs tf2 tf2_ros
   # DEPENDS system_lib
 )
 
